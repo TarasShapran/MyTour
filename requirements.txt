@@ -76,7 +76,7 @@ pydotplus==2.0.2
 pyflakes==3.1.0
 Pygments==2.3.1
 PyJWT==1.7.1
-pylint==2.4.3
+pylint==3.0.2
 pymongo==3.10.1
 Pympler==0.6
 pyparsing==2.3.1
