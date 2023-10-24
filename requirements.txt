@@ -48,7 +48,7 @@ Jinja2==3.0.1
 jsonpickle==2.0.0
 lazy-object-proxy==1.4.2
 MarkupSafe==2.0.1
-mccabe==0.6.1
+mccabe==0.7.0
 mem-top==0.1.6
 memory-profiler==0.55.0
 numpy==1.17.0
