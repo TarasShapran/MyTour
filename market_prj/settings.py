@@ -101,7 +101,7 @@ WSGI_APPLICATION = 'market_prj.wsgi.application'
 # }
 import dj_database_url
 DATABASES = {}
-DATABASES['default'] = dj_database_url.config(default='postgresql://localhost', conn_max_age=600)
+DATABASES['default'] = dj_database_url.config(default='postgresql://postgresql', conn_max_age=600)
 DATABASES['default']['ENGINE'] = 'django.db.backends.postgresql'
 DATABASES['default']['NAME'] = 'market_prj_db'
 
