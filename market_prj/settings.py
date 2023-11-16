@@ -103,6 +103,7 @@ import dj_database_url
 DATABASES = {}
 DATABASES['default'] = dj_database_url.config(default='postgresql://<postgresql>', conn_max_age=600)
 DATABASES['default']['ENGINE'] = 'django.db.backends.postgresql'
+DATABASES['default']['NAME'] = 'market_prj_db'
 
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
