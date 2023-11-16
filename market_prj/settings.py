@@ -92,8 +92,8 @@ DATABASES = {
     'default': {
         'NAME': 'market_prj_db',
         'ENGINE': 'django.db.backends.postgresql',
-        'USER': 'prj_user',
-        'PASSWORD': 'prj_user',
+        'USER': 'postgres',
+        'PASSWORD': 'postgres',
         'HOST': 'localhost',
         'PORT': '5432',
     }
